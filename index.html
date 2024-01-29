@@ -6,11 +6,12 @@
     <title>SINGAPORE DB SGL in BootStrap</title>
     <link rel="stylesheet" href="/Bootstrap - Links/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top bg-body ms-4">
+        <nav class="navbar navbar-expand-lg fixed-top bg-body navtag">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand ms-5">
                     <img src="/Images/LOGO.png" alt="LOGO">
@@ -34,24 +35,25 @@
                     </ul>
                 </div>
 
+
                 <div class="col">
-                    <a href="#" class="nav-link fw-bold fs-5 ms-md-5">
+                    <a href="#" class="nav-link fw-bold fs-5 ms-5 ps-5">
                         Sign in
                     </a>
                 </div>
 
-                <div class="col">
-                    <button type="button">Start Free Trial</button>
+                <div class="col" id="typetag">
+                    <button type="button" class="btn btn-outline-primary rounded-5  bg-transparent text-primary trial-tag">Start Free Trial</button>
                 </div>
             </div>
         </nav>
-    </header>
+    </header> 
 
     <section>
         <div class="container mt-5 pt-5">
             <div class="row mt-5">
                 <div class="col text-center fw-bold">
-                    <p class="h1">Get connected to <span class="text-danger">1.5 Million+</span></p>
+                    <p class="h1 fw-bold">Get connected to <span class="text-danger">1.5 Million+</span></p>
                 </div>
             </div>
 
@@ -70,30 +72,31 @@
 
             <div class="row">
                 <div class="col text-center mt-3">
-                    <button type="button" class="rounded-4">Get Going</button>
+                    <button type="button" class="btn btn-primary btn-lg bg-primary  rounded-5">Get Going</button>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid mt-5">
+        <div class="container mt-5 border border-2">
             <div class="row">
-                <div class="col">
+                <div class="col-4 d-flex">
                     <img src="/Images/Flex Image/download.jpeg" alt="Flex-img-1">
                 </div>
+                
             </div>
         </div>
 
 
-        <div class="container-fluid">
+        <div class="container-fluid mt-5" id="tab-img">
             <div class="row">
                 <div class="col text-center">
-                    <p class="h4 fs-3 fw-normal">Your most desired contacts are just few click away!</p>
+                    <p class="h4 fs-3 fw-normal pt-4">Your most desired contacts are just few click away!</p>
                 </div>
             </div>
 
             <div class="row mt-5">
                 <div class="col text-center">
-                    <img src="/Images/searchResults.png" alt="Search-Result-img" class="img-fluid img-thumbnail rounded-4">
+                    <img src="/Images/searchResults.png" alt="Search-Result-img" class="img-fluid img-thumbnail rounded-4" id="tab-images">
                 </div>
             </div>
         </div>
@@ -127,7 +130,7 @@
         </div>
 
         <div class="container">
-            <div class="row w-100 mt-5">
+            <div class="row mt-5">
                 <div class="col-3 d-flex gap-5 border border-1 align-items-center">
                     <a href="#" class="d-flex nav-link gap-5">
                         <img src="/Images/List Images/Agriculture.svg" alt="Agriculture-img-1">
@@ -319,7 +322,7 @@
                     </div>
 
                     <div class="col-4 d-flex ">
-                        <p class="me-5 mt-2">Company Search</p>
+                        <p class="me-5 mt-2 text-white fs-5">Company Search</p>
                         <img src="/Images/Eight-content-images/companySearch.png" alt="companySearch - image">
                     </div>
                 </div>
