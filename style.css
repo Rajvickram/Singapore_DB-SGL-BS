@@ -7,5 +7,7 @@
     border: 16px solid #1e1e1e;
 }
 
-
-
+.navbtn{
+    /* background-color: aquamarine;     */
+    margin-left: -10rem;
+}
