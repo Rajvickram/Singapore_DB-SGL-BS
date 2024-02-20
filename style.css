@@ -15,9 +15,21 @@
 
 @media screen and (max-width: 768px) {
     .navbtn{
-        /* background-color: aquamarine; */
-        margin-left: -10rem;
+        background-color: aquamarine;
+        /* margin-left: -25rem; */
     }
+
+    #first{
+        width: 20rem;
+        margin-left: 10rem;
+    }
+
+    #two{
+        width: 20rem;
+        margin-left: 50rem;
+    }
+
+    
 
     
 }
